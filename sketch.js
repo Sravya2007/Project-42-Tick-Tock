@@ -15,7 +15,7 @@ function draw() {
   translate(400, 200);
   rotate(-90);
 
-  secAngle = map(sec , 0, 60, 0, 360);
+  secAngle = map(sec, 0, 60, 0, 360);
   minAngle = map(mn, 0, 60, 0, 360);
   hourAngle = map(hr % 12, 0, 12, 0, 360);
 
@@ -32,7 +32,7 @@ function draw() {
   rotate(minAngle);
   stroke("orange");
   strokeWeight(7);
-  line(0, 0, 100, 0);
+  line(0, 0, 75, 0);
   noFill();
   arc(0, 0, 280, 280, -minAngle, 0);
   pop();
@@ -41,7 +41,7 @@ function draw() {
   rotate(hourAngle);
   stroke("red");
   strokeWeight(7);
-  line(0, 0, 100, 0);
+  line(0, 0, 50, 0);
   noFill();
   arc(0, 0, 300, 300, -hourAngle, 0);
   pop();
