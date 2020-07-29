@@ -22,7 +22,7 @@ function draw() {
   push();
   rotate(secAngle);
   stroke("yellow");
-  strokeWeight(7);
+  strokeWeight(8);
   line(0, 0, 100, 0);
   noFill();
   arc(0, 0, 260, 260, -secAngle, 0);
@@ -31,7 +31,7 @@ function draw() {
   push();
   rotate(minAngle);
   stroke("orange");
-  strokeWeight(7);
+  strokeWeight(8);
   line(0, 0, 75, 0);
   noFill();
   arc(0, 0, 280, 280, -minAngle, 0);
@@ -40,7 +40,7 @@ function draw() {
   push();
   rotate(hourAngle);
   stroke("red");
-  strokeWeight(7);
+  strokeWeight(8);
   line(0, 0, 50, 0);
   noFill();
   arc(0, 0, 300, 300, -hourAngle, 0);
